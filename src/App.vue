@@ -20,14 +20,14 @@ export default {
   components: {
     LinkPrevue
   },
-  data(){
+  data () {
     return {
       url: null
     }
   },
   methods: {
-    changeUrl: function(event){
-      this.url = event.target.value;
+    changeUrl: function(event) {
+      this.url = event.target.value
     }
   }
 }
